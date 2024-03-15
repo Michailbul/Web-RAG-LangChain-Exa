@@ -11,12 +11,7 @@ This project leverages the power of LangChain and Exa-Web Search to create a sim
 ## Configuration
 Set up the necessary environment variables. 
 
-LANGCHAIN_TRACING_V2=true
-LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
-LANGCHAIN_API_KEY=<your-langchain-api-key>
-LANGCHAIN_PROJECT=Web-RAG-EXA
-EXA_API_KEY=406dddf9-bbb0-4b88-8519-181b2d86adf1
-OPENAI_API_KEY=<your-openai-api-key>
+
 
 
 # Usage
