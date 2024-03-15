@@ -1,5 +1,32 @@
 # Web-RAG-langchain
 
+
+This project leverages the power of LangChain and Exa-Web Search to create a simplistic web search assistant. Utilizing large language models (LLMs) and advanced search capabilities, it offers users a unique way to retrieve and generate information based on provided queries.
+
+## Features
+
+- **Exa-Web Search Integration:** Harnesses the ExaSearchRetriever for deep web searches, fetching relevant documents based on user queries.
+- **LangChain for LLMs:** Utilizes LangChain for seamless interaction with LLMs for content generation and summarization.
+- **Source Citing:** Automatically cites sources in the generated responses by formatting document highlights and URLs into XML for LLM consumption.
+## Configuration
+Set up the necessary environment variables. 
+
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
+LANGCHAIN_API_KEY=<your-langchain-api-key>
+LANGCHAIN_PROJECT=Web-RAG-EXA
+EXA_API_KEY=406dddf9-bbb0-4b88-8519-181b2d86adf1
+OPENAI_API_KEY=<your-openai-api-key>
+
+
+# Usage
+To start the application locally, run the following command in your terminal:
+
+```bash
+python server.py
+```
+
+
 ## Installation
 
 Install the LangChain CLI if you haven't yet
